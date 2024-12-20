@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.9.0
+  Major Features:
+    - Add new Agricultural camp, which is an early-game variant of the agricultural tower
+    - Add new Space garden entity for growing wood in space
+  Changes:
+    - Buff planted Nauvis Trees to give 10 wood in 5 minutes
