@@ -43,7 +43,7 @@ return {
 
   parts = {
     {
-      rotated_sprite = util.sprite_load("__early-agriculture__/graphics/entity/agricultural-camp/agricultural-camp-crane-1", {
+      rotated_sprite = util.sprite_load("__wood-universe-assets__/graphics/entity/agricultural-camp/agricultural-camp-crane-1", {
         priority = "very-low",
         dice = 4,
         direction_count = 128,
@@ -72,7 +72,7 @@ return {
       name = "hub"
     },
     {
-      rotated_sprite = util.sprite_load("__early-agriculture__/graphics/entity/agricultural-camp/agricultural-camp-crane-3", {
+      rotated_sprite = util.sprite_load("__wood-universe-assets__/graphics/entity/agricultural-camp/agricultural-camp-crane-3", {
         priority = "very-low",
         direction_count = 128,
         scale = 0.5 * CAMP_CRANE_SCALE
@@ -99,7 +99,7 @@ return {
       name = "arm_inner"
     },
     {
-      rotated_sprite = util.sprite_load("__early-agriculture__/graphics/entity/agricultural-camp/agricultural-camp-crane-4", {
+      rotated_sprite = util.sprite_load("__wood-universe-assets__/graphics/entity/agricultural-camp/agricultural-camp-crane-4", {
         priority = "very-low",
         direction_count = 128,
         scale = 0.5 * CAMP_CRANE_SCALE
@@ -127,7 +127,7 @@ return {
       name = "arm_inner_joint"
     },
     {
-      rotated_sprite = util.sprite_load("__early-agriculture__/graphics/entity/agricultural-camp/agricultural-camp-crane-7", {
+      rotated_sprite = util.sprite_load("__wood-universe-assets__/graphics/entity/agricultural-camp/agricultural-camp-crane-7", {
         priority = "very-low",
         direction_count = 128,
         scale = 0.5 * CAMP_CRANE_SCALE
@@ -155,7 +155,7 @@ return {
       name = "arm_central"
     },
     {
-      rotated_sprite = util.sprite_load("__early-agriculture__/graphics/entity/agricultural-camp/agricultural-camp-crane-8", {
+      rotated_sprite = util.sprite_load("__wood-universe-assets__/graphics/entity/agricultural-camp/agricultural-camp-crane-8", {
         priority = "very-low",
         direction_count = 64,
         scale = 0.5 * CAMP_CRANE_SCALE
@@ -177,7 +177,7 @@ return {
       name = "grappler-hub"
     },
     {
-      sprite = util.sprite_load("__early-agriculture__/graphics/entity/agricultural-camp/agricultural-camp-crane-9", {
+      sprite = util.sprite_load("__wood-universe-assets__/graphics/entity/agricultural-camp/agricultural-camp-crane-9", {
         priority = "very-low",
         scale = 0.5 * CAMP_CRANE_SCALE
       }),
@@ -199,7 +199,7 @@ return {
       name = "telescope"
     },
     {
-      sprite = util.sprite_load("__early-agriculture__/graphics/entity/agricultural-camp/agricultural-camp-crane-10", {
+      sprite = util.sprite_load("__wood-universe-assets__/graphics/entity/agricultural-camp/agricultural-camp-crane-10", {
         priority = "very-low",
         scale = 0.5 * CAMP_CRANE_SCALE
       }),

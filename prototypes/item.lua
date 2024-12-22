@@ -4,7 +4,7 @@ data:extend({
   {
     type = "item",
     name = "agricultural-camp",
-    icon = "__early-agriculture__/graphics/icons/agricultural-camp.png",
+    icon = "__wood-universe-assets__/graphics/icons/agricultural-camp.png",
     subgroup = "agriculture",
     order = "a[agricultural-camp]",
     inventory_move_sound = item_sounds.mechanical_large_inventory_move,

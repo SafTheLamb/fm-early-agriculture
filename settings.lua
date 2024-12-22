@@ -11,7 +11,7 @@ data:extend({
     name = "early-agriculture-chop-pollution",
     setting_type = "startup",
     minimum_value = 0,
-    default_value = 7.5,
+    default_value = 2.5,
     order = "a[tree]-b[pollution]"
   }
 })

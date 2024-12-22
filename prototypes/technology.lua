@@ -2,7 +2,7 @@ data:extend({
   {
     type = "technology",
     name = "basic-agriculture",
-    icon = "__early-agriculture__/graphics/technology/basic-agriculture.png",
+    icon = "__wood-universe-assets__/graphics/technology/basic-agriculture.png",
     icon_size = 256,
     effects = {
       {type="unlock-recipe", recipe="agricultural-camp"},

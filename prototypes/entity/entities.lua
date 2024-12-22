@@ -7,7 +7,7 @@ data:extend({
   {
     type = "agricultural-tower",
     name = "agricultural-camp",
-    icon = "__early-agriculture__/graphics/icons/agricultural-camp.png",
+    icon = "__wood-universe-assets__/graphics/icons/agricultural-camp.png",
     flags = {"placeable-neutral", "placeable-player", "player-creation"},
     minable = {mining_time = 0.2, result = "agricultural-camp"},
     fast_replaceable_group = "agricultural-tower",
@@ -98,7 +98,7 @@ data:extend({
     graphics_set = {
       animation = {
         layers = {
-          util.sprite_load("__early-agriculture__/graphics/entity/agricultural-camp/agricultural-camp-base", {
+          util.sprite_load("__wood-universe-assets__/graphics/entity/agricultural-camp/agricultural-camp-base", {
             priority = "high",
             animation_speed = 0.25,
             frame_count = 64,
