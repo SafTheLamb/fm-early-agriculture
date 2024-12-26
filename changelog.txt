@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.9.3
+  Bugfixes:
+    - Implement hotfix for trees not being plantable on Alien Biomes trees
+
+---------------------------------------------------------------------------------------------------
 Version: 0.9.2
   Bugfixes:
     - Fix compatibility with AAI Industries
