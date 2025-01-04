@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.9.4
+  Bugfixes:
+    - Improve compatibility with Diversitree, credit to its developer S6X for the fix!
+
+---------------------------------------------------------------------------------------------------
 Version: 0.9.3
   Bugfixes:
     - Implement hotfix for trees not being plantable on Alien Biomes trees
