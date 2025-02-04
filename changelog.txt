@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.9.5
+  Bugfixes:
+    - Fix offset of working visualisation graphics for the agricultural camp
+
+---------------------------------------------------------------------------------------------------
 Version: 0.9.4
   Bugfixes:
     - Improve compatibility with Diversitree, credit to its developer S6X for the fix!

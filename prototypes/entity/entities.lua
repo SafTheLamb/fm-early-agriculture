@@ -131,6 +131,7 @@ data:extend({
             frame_count = 64,
             animation_speed = 0.25,
             tint_as_overlay = true,
+            multiply_shift = 0.5 + CAMP_CRANE_SCALE/2,
             scale = 0.5 * CAMP_CRANE_SCALE
           }),
         },
@@ -143,6 +144,7 @@ data:extend({
             frame_count = 64,
             animation_speed = 0.25,
             blend_mode = "additive",
+            multiply_shift = 0.5 + CAMP_CRANE_SCALE/2,
             scale = 0.5 * CAMP_CRANE_SCALE
           }),
         },
