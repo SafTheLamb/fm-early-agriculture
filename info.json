@@ -1,18 +1,18 @@
 {
-  "name": "early-agriculture",
-  "title": "Early Agriculture",
-  "description": "Adds an early-game agricultural tower for growing wood before Gleba",
-  "author": "SafTheLamb",
-  "version": "0.9.5",
-  "factorio_version": "2.0",
-  "homepage": "https://github.com/SafTheLamb/fm-early-agriculture",
-  "dependencies": [
-    "base >= 2.0.7",
-    "fdsl >= 0.1.4",
-    "space-age",
-    "wood-universe-assets >= 1.0.0",
-    "? wood-logistics",
-    "(?) aai-industry"
-  ],
-  "space_travel_required": true
+    "name": "early-agriculture",
+    "title": "Early Agriculture",
+    "description": "Adds an early-game agricultural tower for growing wood before Gleba",
+    "author": "SafTheLamb",
+    "version": "0.9.5",
+    "factorio_version": "2.0",
+    "homepage": "https://github.com/SafTheLamb/fm-early-agriculture",
+    "dependencies": [
+        "base >= 2.0.7",
+        "fdsl >= 0.1.4",
+        "? space-age",
+        "wood-universe-assets >= 1.0.0",
+        "? wood-logistics",
+        "(?) aai-industry"
+    ],
+    "space_travel_required": true
 }
