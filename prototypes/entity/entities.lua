@@ -25,7 +25,7 @@ data:extend({
       width = 10,
       height = 10
     },
-    radius = 1,
+    radius = 2,
     crane = require("__early-agriculture__.prototypes.entity.agricultural-camp-crane"),
     planting_procedure_points = {
       {0.0, 0.0, 0.75},
