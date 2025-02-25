@@ -1,6 +1,15 @@
 local frep = require("__fdsl__.lib.recipe")
+local ftech = require("__fdsl__.lib.technology")
 
 -------------------------------------------------------------------------- Tree changes
+
+data.raw.technology["tree-seeding"].icon = "__space-age__/graphics/technology/agriculture.png"
+data.raw.technology["tree-seeding"].prerequisites = {"carbon-fiber"}
+ftech.add_unlock("tree-seeding", "agricultural-tower")
+ftech.remove_unlock("tree-seeding", "wood-processing")
+data.raw.recipe["wood-processing"].energy_required = 0.5
+data.raw.technology["agriculture"].icon = "__wood-universe-assets__/graphics/technology/gleba-agriculture.png"
+ftech.remove_unlock("agriculture", "agricultural-tower")
 
 local tree_plant = data.raw.plant["tree-plant"]
 if settings.startup["early-agriculture-buff-tree-plant"].value then
@@ -28,8 +37,8 @@ if mods["aai-industry"] then
 end
 
 local agricultural_tower = data.raw["agricultural-tower"]["agricultural-tower"]
-agricultural_tower.energy_usage = "250kW"
-agricultural_tower.crane_energy_usage = "250kW"
+agricultural_tower.energy_usage = "500kW"
+agricultural_tower.crane_energy_usage = "500kW"
 
 -------------------------------------------------------------------------- Assembler changes
 

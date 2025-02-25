@@ -46,8 +46,8 @@ data:extend({
     },
     drawing_box_vertical_extension = 2.5 * CAMP_CRANE_SCALE,
     heating_energy = "100kW",
-    energy_usage = "50kW",
-    crane_energy_usage = "50kW",
+    energy_usage = "100kW",
+    crane_energy_usage = "100kW",
     working_sound = {
       sound = {filename = "__space-age__/sound/entity/agricultural-tower/agricultural-tower-hub-loop.ogg", volume = 0.7},
       max_sounds_per_type = 4,

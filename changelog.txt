@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Changes:
+    - Reduce tree seed crafting time from 2s to 0.5s, since it's now used early-game
+    - Rename Agricultural camp to Early agricultural tower
+
+---------------------------------------------------------------------------------------------------
 Version: 0.9.7
   Changes:
     - Version number bump
