@@ -18,7 +18,7 @@ local default_dying_effect =
   explosion_linear_distance_step = 0.4
 }
 
-local CAMP_CRANE_SCALE = 0.8
+local CAMP_CRANE_SCALE = settings.startup["early-agriculture-trex"].value and 0.6 or 0.8
 
 return {
   origin = {0.5 * CAMP_CRANE_SCALE, -0.55 * CAMP_CRANE_SCALE, 4.6 * CAMP_CRANE_SCALE},

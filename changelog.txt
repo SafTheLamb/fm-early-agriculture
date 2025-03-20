@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+  Changes:
+    - Add optional setting to make early agricultural towers like T-Rexes again
+    - Add glass from Early Crushing to recipe for Early agricultural towers
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
   Changes:
     - Reduce tree seed crafting time from 2s to 0.5s, since it's now used early-game

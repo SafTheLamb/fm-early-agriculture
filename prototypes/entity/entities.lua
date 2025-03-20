@@ -1,7 +1,7 @@
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 
-local CAMP_CRANE_SCALE = 0.8
+local CAMP_CRANE_SCALE = settings.startup["early-agriculture-trex"].value and 0.6 or 0.8
 
 data:extend({
   {
@@ -25,7 +25,7 @@ data:extend({
       width = 10,
       height = 10
     },
-    radius = 2,
+    radius = settings.startup["early-agriculture-trex"].value and 1 or 2,
     crane = require("__early-agriculture__.prototypes.entity.agricultural-camp-crane"),
     planting_procedure_points = {
       {0.0, 0.0, 0.75},

@@ -13,5 +13,12 @@ data:extend({
     minimum_value = 0,
     default_value = 2.5,
     order = "a[tree]-b[pollution]"
+  },
+  {
+    type = "bool-setting",
+    name = "early-agriculture-trex",
+    setting_type = "startup",
+    default_value = false,
+    order = "m[misc]-a[short-arms]"
   }
 })

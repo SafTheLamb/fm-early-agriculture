@@ -1,4 +1,5 @@
 local lumber_item = mods["wood-logistics"] and settings.startup["wood-logistics-lumber"].value and "lumber" or "wood"
+local glass_item = mods["crushing-industry"] and settings.startup["crushing-industry-glass"].value and "glass" or "stone-brick"
 
 data:extend({
   {
@@ -14,7 +15,7 @@ data:extend({
       {type="item", name="steel-plate", amount=5},
       {type="item", name=lumber_item, amount=5},
       {type="item", name="electronic-circuit", amount=2},
-      {type="item", name="stone-brick", amount=5}
+      {type="item", name=glass_item, amount=5}
     },
     results = {{type="item", name="agricultural-camp", amount=1}},
     enabled = false
