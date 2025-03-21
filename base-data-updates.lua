@@ -27,10 +27,10 @@ end
 data.raw.item["agricultural-tower"].weight = 100 * kg
 
 frep.add_ingredient("agricultural-tower", {type="item", name="agricultural-camp", amount=1})
+frep.remove_ingredient("agricultural-tower", "landfill")
 frep.replace_ingredient("agricultural-tower", "electronic-circuit", "processing-unit")
 frep.replace_ingredient("agricultural-tower", "steel-plate", "carbon-fiber")
 frep.replace_ingredient("agricultural-tower", "spoilage", {type="item", name="pentapod-egg", amount=1})
-frep.scale_ingredient("agricultural-tower", "landfill", {amount=5})
 frep.set_surface_condition("agricultural-tower", {property="pressure", min=2000, max=2000})
 if mods["aai-industry"] then
   frep.add_ingredient("agricultural-tower", {type="item", name="electric-engine-unit", amount=5})
