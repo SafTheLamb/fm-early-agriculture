@@ -5,7 +5,7 @@ data:extend({
   {
     type = "explosion",
     name = "agricultural-camp-explosion",
-    icon = "__wood-universe-assets__/graphics/icons/agricultural-camp.png",
+    icon = "__early-agriculture__/graphics/icons/agricultural-camp.png",
     flags = {"not-on-map"},
     hidden = true,
     subgroup = "agriculture-explosions",

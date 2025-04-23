@@ -2,7 +2,7 @@ data:extend({
   {
     type = "corpse",
     name = "agricultural-camp-remnants",
-    icon = "__wood-universe-assets__/graphics/icons/agricultural-camp.png",
+    icon = "__early-agriculture__/graphics/icons/agricultural-camp.png",
     flags = {"placeable-neutral", "not-on-map"},
     hidden_in_factoriopedia = true,
     subgroup = "agriculture-remnants",
@@ -16,7 +16,7 @@ data:extend({
     final_render_layer = "remnants",
     remove_on_tile_placement = false,
     animation = {
-      filename = "__wood-universe-assets__/graphics/entity/agricultural-camp/agricultural-camp-remnants.png",
+      filename = "__early-agriculture__/graphics/entity/agricultural-camp/agricultural-camp-remnants.png",
       line_length = 1,
       width = 250,
       height = 250,
