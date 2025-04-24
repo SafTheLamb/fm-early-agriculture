@@ -3,7 +3,7 @@
   "title": "Early Agriculture",
   "description": "Adds an early-game agricultural tower for growing wood before Gleba",
   "author": "SafTheLamb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "factorio_version": "2.0",
   "homepage": "https://github.com/SafTheLamb/fm-early-agriculture",
   "dependencies": [
