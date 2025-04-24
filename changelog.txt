@@ -1,31 +1,31 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2025-04-24
+  Changes:
+    - Integrate assets and remove dependency on wood-universe-assets
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2025-04-24
   Changes:
     - Remove Landfill from Agricultural tower recipe to simplify its recipe
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
   Changes:
     - Add optional setting to make early agricultural towers like T-Rexes again
     - Add glass from Early Crushing to recipe for Early agricultural towers
-
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
   Changes:
     - Reduce tree seed crafting time from 2s to 0.5s, since it's now used early-game
     - Rename Agricultural camp to Early agricultural tower
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.9.7
   Changes:
     - Version number bump
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.9.6
   Changes:
     - Increase radius to 2
-
 ---------------------------------------------------------------------------------------------------
 Version: 0.9.5
   Bugfixes:
