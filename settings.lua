@@ -7,12 +7,19 @@ data:extend({
     order = "a[tree]-a[buff]"
   },
   {
+    type = "bool-setting",
+    name = "early-agriculture-artificial-grass",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[tree]-b[artificial-soil]"
+  },
+  {
     type = "double-setting",
     name = "early-agriculture-chop-pollution",
     setting_type = "startup",
     minimum_value = 0,
     default_value = 2.5,
-    order = "a[tree]-b[pollution]"
+    order = "b[balance]-b[pollution]"
   },
   {
     type = "bool-setting",
@@ -20,5 +27,5 @@ data:extend({
     setting_type = "startup",
     default_value = false,
     order = "m[misc]-a[short-arms]"
-  }
+  },
 })
