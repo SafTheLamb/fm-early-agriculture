@@ -33,7 +33,8 @@ if settings.startup["early-agriculture-artificial-grass"].value then
 				condition = {layers={ground_tile=true}},
 				invert = true,
 				tile_condition = {
-					-- Technically trees can be planted anywhere except sand, but this lets players decorate their lawn
+					-- Technically trees can already be planted anywhere except sand, but this lets players decorate their lawn
+					"grass-1", "grass-2", "grass-3", "grass-4",
 					"dry-dirt", "dirt-1", "dirt-2", "dirt-3", "dirt-4", "dirt-5", "dirt-6", "dirt-7",
 					"sand-1", "sand-2", "sand-3",
 					"red-desert-0", "red-desert-1", "red-desert-2", "red-desert-3",
@@ -43,3 +44,13 @@ if settings.startup["early-agriculture-artificial-grass"].value then
 		}
 	})
 end
+
+data:extend({
+	{
+		type = "item",
+		name = "wcu-proxy-trex",
+		icon = "__early-agriculture__/graphics/trex.png",
+		hidden = true,
+		stack_size = 1
+	}
+})
