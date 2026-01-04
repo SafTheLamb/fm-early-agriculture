@@ -17,6 +17,12 @@ if settings.startup["early-agriculture-buff-tree-plant"].value then
   tree_plant.growth_ticks = 5 * minute
 end
 
+if settings.startup["early-agriculture-artificial-grass"].value then
+  if tree_plant and tree_plant.autoplace.tile_restriction then
+    table.insert(tree_plant.autoplace.tile_restriction, "artificial-grass")
+  end
+end
+
 local harvest_pollution = settings.startup["early-agriculture-chop-pollution"].value
 if harvest_pollution > 0 then
   tree_plant.harvest_emissions = {pollution=harvest_pollution}
