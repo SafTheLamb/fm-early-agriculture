@@ -2,10 +2,11 @@
 Version: 1.1.0
 Date: ????
   Major Features:
-    - Artificial grass now lets you plant trees wherever you want (once you have landfill)
+    - Artificial grass now lets you plant trees wherever you want that isn't water (once you have landfill)
   Changes:
     - Basic agriculture is now an essential tech that isn't scaled by research cost
     - Early agricultural tower now costs 20 iron plates instead of 5 steel plates, and no longer requires steel processing to research (unaffected when AAI Industry is installed)
+    - Renamed "Buff planted trees" startup setting to "More wood"
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.3
 Date: 2025-04-24
