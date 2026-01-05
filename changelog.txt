@@ -2,6 +2,7 @@
 Version: 1.1.2
 Date: ????
   Changes:
+    - Fix artificial grass not being researchable
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
 Date: 2026-01-04
