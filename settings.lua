@@ -3,7 +3,7 @@ data:extend({
     type = "bool-setting",
     name = "early-agriculture-the-basics",
     setting_type = "startup",
-    -- hidden = true,
+    hidden = true,
     default_value = true
   },
   {
