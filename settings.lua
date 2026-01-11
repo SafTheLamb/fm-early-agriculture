@@ -1,6 +1,13 @@
 data:extend({
   {
     type = "bool-setting",
+    name = "early-agriculture-the-basics",
+    setting_type = "startup",
+    -- hidden = true,
+    default_value = true
+  },
+  {
+    type = "bool-setting",
     name = "early-agriculture-buff-tree-plant",
     setting_type = "startup",
     default_value = true,

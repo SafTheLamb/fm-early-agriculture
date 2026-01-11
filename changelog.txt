@@ -2,6 +2,10 @@
 Version: 1.1.3
 Date: ????
   Changes:
+    - Made artificial grass slightly greener
+    - Changed artificial grass layer to be above stone bricks (for aesthetic potential)
+  Compatibility:
+    - Add hidden setting `early-agriculture-the-basics` to disable creation of the Early agricultural tower and disable balance changes made to the regular ag tower
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.2
 Date: 2026-01-05
