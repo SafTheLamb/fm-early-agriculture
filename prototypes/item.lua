@@ -54,5 +54,12 @@ data:extend({
 		icon = "__early-agriculture__/graphics/trex.png",
 		hidden = true,
 		stack_size = 1
+	},
+	{
+		type = "item",
+		name = "wcu-proxy-grass",
+		icon = "__early-agriculture__/graphics/icons/artificial-grass.png",
+		hidden = true,
+		stack_size = 1
 	}
 })
